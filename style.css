@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --nav-font-color:#333;
+    --nav-bg-color:white;
+    --container-font-color:black;
+    --container-bg-color:aliceblue;
+}
+
+.dark-theme{
+    --nav-font-color:white;
+    --nav-bg-color:#333;
+    --container-font-color:white;
+    --container-bg-color:#121212;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--nav-bg-color);
+  padding: 30px;
+  color: var(--nav-font-color);
+  letter-spacing: 2px;
+}
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ color: var(--container-font-color);
+ background-color: var(--container-bg-color);
+ font-size: 2rem;
+ font-weight: 600;
+ letter-spacing: 2px;
+ font-family: sans-serif;
+}
